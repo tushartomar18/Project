@@ -1,0 +1,224 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music Website</title>
+    </head>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url(https://i.pinimg.com/originals/fc/cb/19/fccb199d36ee7f295c4d58c9677ffef2.jpg);
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.brand-navigation {
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content {
+    width: 960px;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navigation {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    padding: 3.5em;
+    color: #dbdbe2;
+  }
+  
+  .logo-nav {
+    /* max-width: 100px; */
+    height: 70px;
+    width: 200px;
+    margin-top: 10px;
+    position: absolute;
+    left: 10px;
+  }
+  
+  .button-dark {
+    height: 28x;
+    padding: 1px 20px;
+    border-radius: 4px;
+    background-color: #00e59b;
+    border-style: none;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;	
+    font-size: 13px;	
+    line-height: 26px;
+  }
+
+
+
+  .navigation li a:hover{
+    color: palevioletred;
+    text-decoration: underline;
+    font-weight: bolder;
+  }
+
+
+
+  .container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  #heading{
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(206, 218, 45);
+  }
+
+  #para{
+    color: white;
+    font-size: 20px;
+  }
+
+  .bi{
+    color: white;
+  }
+
+  .bi-cart{
+    position: absolute;
+    right: 100;
+  }
+
+
+  .bi-search-heart-fill{
+    position: absolute;
+    right: 64;
+  }
+
+
+  .bi-list{
+    position: absolute;
+    right: 40;
+  }
+
+
+ .nb{
+    margin-left: 100px;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 40px;
+ }
+.nba{
+    margin-left: 450px;
+    padding: 20px;
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+
+.nb:hover{
+    background-color: palevioletred;
+}
+
+.nba:hover{
+    background-color: palevioletred;
+}
+
+
+
+
+footer{
+    width: 100vw;
+    height: 40px;
+    background-color: whitesmoke;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+}
+    </style>
+    
+    <body>
+        <header class="brand-navigation">
+            <div class="content">
+                <img class="logo-nav" src=https://uploadon.net/wp-content/uploads/2019/09/Upload-On-Airtel-Wynk-Music-Free-Music-Distribution.png></img>
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">PAGES</a></li>
+                        <li><a href="#">PORTFOLIOS</a></li>
+                        <li><a href="#">HEADERS</a></li>
+                        <li><a href="#">ELEMENT</a></li>
+                        <li><a href="#">BLOG</a></li>
+                    </ul>
+                </nav>
+                <!-- <button class="button-dark">Keine Ahnung</button> -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                  </svg>
+    
+    
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search-heart-fill" viewBox="0 0 16 16">
+                    <path d="M6.5 13a6.474 6.474 0 0 0 3.845-1.258h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.008 1.008 0 0 0-.115-.1A6.471 6.471 0 0 0 13 6.5 6.502 6.502 0 0 0 6.5 0a6.5 6.5 0 1 0 0 13Zm0-8.518c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018Z"/>
+                  </svg>
+    
+    
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                  </svg>
+            </div>
+        </header>
+    
+    
+    
+        <div class="container">
+            <div class="text">
+                <pre
+                    id="heading">Perfect images 
+    for Perfect Websites
+    
+    <p id="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, corporis alias! 
+        Assumenda veritatis optio natus voluptas ipsum, doloremque debitis fugit maiores quas illo harum dignissimos.</p></pre>
+        <button class="nba">EXPLORE MORE</button>
+            <button class="nb">BUY NOW</button>
+            </div>
+        </div>
+    
+    
+        <footer>
+            <pre>[TUSHAR TOMAR]     [201500748]      GLA UNIVERSITY MATHURA       11-07-02</pre>
+        </footer>
+    </body>
+    
+    </html>
